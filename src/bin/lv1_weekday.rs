@@ -54,10 +54,10 @@ enum Weekday {
 //     assert_eq!(Weekday::Sun.how_many_days_until_next(Weekday::Tue, 2);
 //     assert_eq!(Weekday::Sun.how_many_days_until_next(Weekday::Sat, 6);
 //
-//     assert_eq!(Weekday::Sat.how_many_days_until_next(Weekday::Sun, 6);
-//     assert_eq!(Weekday::Sat.how_many_days_until_next(Weekday::Mon, 7);
-//     assert_eq!(Weekday::Sat.how_many_days_until_next(Weekday::Tue, 1);
-//     assert_eq!(Weekday::Sat.how_many_days_until_next(Weekday::Sat, 5);
+//     assert_eq!(Weekday::Sat.how_many_days_until_next(Weekday::Sun, 1);
+//     assert_eq!(Weekday::Sat.how_many_days_until_next(Weekday::Mon, 2);
+//     assert_eq!(Weekday::Sat.how_many_days_until_next(Weekday::Tue, 3);
+//     assert_eq!(Weekday::Sat.how_many_days_until_next(Weekday::Sat, 7);
 // }
 
 // 課題(HARD): 曜日a,bについて、for x in a..bで曜日aからbの前日までを回せるようにせよ。
